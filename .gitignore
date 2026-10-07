@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Environment files (keep examples)
+.env
+backend/.env
+frontend/.env
+
+# Runtime data (JSON persistence)
+backend/data/*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "name": "hyperlocal-rainfall-risk-mapping-system",
+  "version": "1.0.0",
+  "description": "Hyperlocal Rainfall-Induced Waterlogging & Environmental Risk Mapping System - Academic EVS Engineering Project",
+  "scripts": {
+    "start": "node run-all.js",
+    "dev": "node run-all.js",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test": "npm test --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "keywords": [
+    "hyperlocal",
+    "rainfall",
+    "waterlogging",
+    "environmental-risk",
+    "evs",
+    "react",
+    "leaflet",
+    "nodejs",
+    "json-storage"
+  ],
+  "author": "EVS Engineering Project Team",
+  "license": "ISC"
+}
